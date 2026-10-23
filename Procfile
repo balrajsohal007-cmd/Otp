@@ -1,0 +1,1 @@
+worker: sh -c 'mkdir -p "${RAILWAY_VOLUME_MOUNT_PATH:-/app/data}" && cd "${RAILWAY_VOLUME_MOUNT_PATH:-/app/data}" && python /app/otpnewupdate_final_fixed.py'
